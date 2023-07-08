@@ -7,7 +7,7 @@
      font-family: Open 'Sans';
 }
 
-/* global style start */
+/*00 global style start */
 section{
      margin: 130px 230px;
 }
@@ -61,9 +61,9 @@ p{
      background-color: #FD6E0A;
      color: #FFF;
 }
-/* global style end */
+/*00 global style end */
 
-/* navbar start  */
+/*01 navbar start  */
 header{
      background: #FFF8F3;
      background-image: url('./imagesh/header_bg.png');
@@ -104,9 +104,9 @@ nav ul > li a{
 nav ul > li a:hover{
      color: #FD6E0A;
 }
-/* navbar end */
+/*01 navbar end */
 
-/* Bernard section start */
+/*02 Bernard section start */
 .banner{
      padding: 0 230px;
      display: flex;
@@ -118,11 +118,11 @@ nav ul > li a:hover{
      display:flex;
      align-items: end;
      justify-content: center;
-     width: 60%;
-     height: auto;
+     width: 70%;
+     
 }
 .banner .banner-images img{
-     width: 80%;
+     width: 90%;
      height: auto;
 }
 .banner .title{
@@ -151,12 +151,12 @@ nav ul > li a:hover{
      line-height: 30px;
      padding-bottom: 30px;
 }
-/* Bernard section end */
+/*02 Bernard section end */
 
 
 /* main section start start  */
 
-/* about section start */
+/*03 about section start */
 .about{
      border-radius: 10px;
      background: #FFF8F3;
@@ -177,9 +177,9 @@ nav ul > li a:hover{
      gap: 50px;
      margin-bottom: 130px;
 }
-/* about section end */
+/*03 about section end */
 
-/* skil section start */
+/*04 skil section start */
 .skil-card{
      display:flex;
      align-items: center;
@@ -211,9 +211,9 @@ nav ul > li a:hover{
      font-weight: 400;
      line-height: 28px;
 }
-/* skil section end */
+/*04 skil section end */
 
-/* resume section start */
+/*05 resume section start */
 .resume .resume-detail{
      margin-top: 100px;
      display:flex;
@@ -252,13 +252,71 @@ nav ul > li a:hover{
      font-weight: 400;
      
 }
-.resume .download-CV-btn{
+.resume .download-cv-btn{
      text-align: center;
      padding-top: 50px;
 }
-/* resume section end */
+/*05 resume section end */
+
+/* 06 footer section start */
+footer{
+     background: #FFF8F3;
+     margin-top: 130px ;
+}
+footer .container{
+     padding: 130px 230px;     
+}
+footer .footer-content{
+     display:flex;
+     align-items: top;
+     justify-content: space-between;
+     gap: 117px;
+}
+footer .lets-Connect-heading{
+     color: #181818;
+     text-align: left;
+     font-family: Open Sans;
+     font-size: 35px;
+     font-weight: 700;
+}
+
+.lets-Connect .lets-Connect-discription{
+     color:  #474747;
+     font-family: Open Sans;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+     padding: 30px 0;
+}
+.lets-Connect .socil-icon img{
+     padding-right: 10px;
+}
+/* from section start */
+.message-me form{
+     padding-top: 35px;
+}
+.message-me input, textarea{
+     border-radius: 5px;
+     width: 100%;
+     padding: 15px;
+     border: none;
+     margin-bottom: 24px ;
+     
+}
+.message-me input:focus, textarea:focus{
+     outline-color: #FD6E0A;
+}
 
 
+
+
+
+
+
+
+
+
+/* 06 footer section end */
 
 
 
