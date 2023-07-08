@@ -189,8 +189,12 @@ nav ul > li a:hover{
 }
 .skil-detail{
      width: 267px;
-     box-shadow: 5px 5px 10px black;
+     box-shadow: 5px 5px 10px rgb(214, 209, 209);
      padding: 40px 30px;
+     transition: .3s ease;
+}
+.skil-detail:hover{
+     box-shadow: none;
 }
 .skil-detail img{
      width: 40px;
