@@ -8,28 +8,46 @@
 }
 
 /* global style start */
+a{
+     text-decoration: none;
+}
 .prynmare-btn{
      color:  #FFF;
      font-family: Open 'Sans';
-     font-size: 16px;
+     font-size: 18px;
      font-weight: 600;
      background-color: #FD6E0A;
      padding: 16px 30px;
      border-radius: 5px;
      border: none;
-     display: block;
+     display: inline-block;
      transition: .4s ease;
 }
 .prynmare-btn:hover{
      background-color: #b6520a;
 }
+
+.secondary-btn{
+     border: 2px solid #FD6E0A;
+     background: transparent;
+     color: #FD6E0A;
+}
+.secondary-btn:hover{
+     background-color: #FD6E0A;
+     color: #FFF;
+}
 /* global style end */
 
 /* navbar start  */
 header{
-     padding: 40px 230px;
+     background: #FFF8F3;
+     background-image: url('./imagesh/header_bg.png');
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     
 }
 nav{
+     padding: 40px 230px;
      display:flex;
      align-items: center;
      justify-content: space-between; 
@@ -56,10 +74,53 @@ nav ul > li{
 }
 nav ul > li a{
      color: #181818;
-     text-decoration: none;
      transition: .4s ease;
 }
 nav ul > li a:hover{
      color: #FD6E0A;
 }
 /* navbar end */
+
+/* Bernard section start */
+.banner{
+     padding: 0 30px 0 230px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.banner .banner-images{
+     width: 60%;
+     height: auto;
+}
+.banner .banner-images img{
+     width: 80%;
+     height: auto;
+}
+.banner .title{
+     color: #474747;
+     font-family: Open Sans;
+     font-size: 35px;
+     font-weight: 600;
+}
+
+.banner .subtitle{
+     color: #181818;
+     font-family: Open Sans;
+     font-size: 60px;
+     font-weight: 700;
+     line-height: 80px;
+     padding-top: 30px;
+     padding-bottom: 35px;
+     
+}
+.banner .banner-discriptio{
+     color: #757575;
+     font-family: Open Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     padding-bottom: 30px;
+}
+/* Bernard section end */
