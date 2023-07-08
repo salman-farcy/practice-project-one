@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Open 'Sans';
+}
+
+/* global style start */
+.prynmare-btn{
+     color:  #FFF;
+     font-family: Open 'Sans';
+     font-size: 16px;
+     font-weight: 600;
+     background-color: #FD6E0A;
+     padding: 16px 30px;
+     border-radius: 5px;
+     border: none;
+     display: block;
+     transition: .4s ease;
+}
+.prynmare-btn:hover{
+     background-color: #b6520a;
+}
+/* global style end */
+
+/* navbar start  */
+header{
+     padding: 40px 230px;
+}
+nav{
+     display:flex;
+     align-items: center;
+     justify-content: space-between; 
+}
+.logo{
+     color: #181818;
+     font-family: Open Sans;
+     font-size: 35px;
+     font-weight: 800;
+     text-decoration: none;
+}
+.logo span{
+     color: #FD6E0A;
+}
+nav ul{
+     display:flex;
+     align-items: center;
+     gap: 30px;
+}
+nav ul > li{
+     list-style: none;
+     font-size: 20px;
+     font-weight: 600;
+}
+nav ul > li a{
+     color: #181818;
+     text-decoration: none;
+     transition: .4s ease;
+}
+nav ul > li a:hover{
+     color: #FD6E0A;
+}
+/* navbar end */
