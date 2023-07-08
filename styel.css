@@ -184,12 +184,11 @@ nav ul > li a:hover{
      display:flex;
      align-items: center;
      justify-content: space-between;
-     /* gap: 35px; */
+     gap: 35px;
      padding-top: 50px;
 }
 .skil-detail{
      width: 267px;
-     height: 377px;
      box-shadow: 5px 5px 10px black;
      padding: 40px 30px;
 }
@@ -214,8 +213,50 @@ nav ul > li a:hover{
 }
 /* skil section end */
 
-
-
+/* resume section start */
+.resume .resume-detail{
+     margin-top: 100px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 70px;
+}
+.resume .education-dtl{
+     padding-bottom: 30px;
+}
+.resume .education-titel{
+     color:  #474747;
+     font-family: Open Sans;
+     font-size: 30px;
+     font-weight: 700;
+     
+}
+.resume .education-dtl .heading-edc{
+     color: #474747;
+     font-family: Open Sans;
+     font-size: 22px;
+     font-weight: 700;
+     padding: 30px 0 10px 0;
+}
+.resume .education-dtl .University{
+     color: #757575;
+     font-family: Open Sans;
+     font-size: 16px;
+     font-weight: 400;
+     padding-bottom: 20px;
+}
+.resume .education-dtl small{
+     color:  #757575;
+     font-family: Open Sans;
+     font-size: 16px;
+     font-weight: 400;
+     
+}
+.resume .download-CV-btn{
+     text-align: center;
+     padding-top: 50px;
+}
+/* resume section end */
 
 
 
